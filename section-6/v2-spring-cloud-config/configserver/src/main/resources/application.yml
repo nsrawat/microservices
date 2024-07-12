@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: "configserver"
+  profiles:
+    active: git
+    #active: native
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: "https://github.com/nsrawat/microservices-config.git"
+          default-label: main
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+encrypt:
+  key: "IhSpXwDA9GqYyyTnfAGElX9r1bHvHycTx+GYSdQ5YuY+P9ykp3YCbw8lLH+lEAm4"
+
+server:
+  port: 8071
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  health:
+    readiness-state:
+      enabled: true
+    liveness-state:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true

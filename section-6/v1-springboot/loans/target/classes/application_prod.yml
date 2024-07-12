@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to loan  related Production api"
+  contactDetails:
+    name: "Amit Doe - Production Owner"
+    email: "amit@bank.com"
+  onCallSupport:
+    -(555)555-3766
+    -(555)523-3767
