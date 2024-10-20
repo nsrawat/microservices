@@ -16,7 +16,9 @@ import com.microservices.accounts.service.client.CardsFeignClient;
 import com.microservices.accounts.service.client.LoansFeignClient;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 
+@Service
 @AllArgsConstructor
 public class CustomerServiceImpl implements ICustomersService {
 
