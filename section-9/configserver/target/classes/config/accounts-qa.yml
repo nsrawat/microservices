@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to bank account related QA api"
+  contactDetails:
+    name: "Sam Doe - QA developer"
+    email: "sam@bank.com"
+  onCallSupport:
+    -(555)555-3766
+    -(555)523-3767

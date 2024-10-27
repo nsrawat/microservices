@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+cards:
+  message: "Welcome to bank card related prod api"
+  contactDetails:
+    name: "Aman Singh - Product Owner"
+    email: "aman@bank.com"
+  onCallSupport:
+    -(555)555-4829
+    -(555)523-4830

@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to  card contact support api"
+  contactDetails:
+    name: "johny - backend developer"
+    email: "johny@bank.com"
+  onCallSupport:
+    -(555)555-1234
+    -(555)523-1345
