@@ -1,0 +1,3 @@
+com\eazybytes\accounts\entity\Accounts.class
+com\eazybytes\accounts\dto\ErrorResponseDto.class
+com\eazybytes\accounts\service\client\LoansFeignClient.class
